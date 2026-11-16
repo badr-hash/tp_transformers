@@ -1,0 +1,29 @@
+Le matin, la ville de Casablanca s'éveille doucement. Les boutiques ouvrent leurs rideaux, les premiers tramways traversent les grandes avenues et l'odeur du pain chaud se mêle à celle du café. Sur la corniche, des coureurs saluent l'océan avant de rentrer travailler. Chaque jour ressemble au précédent, et pourtant rien n'est jamais tout à fait pareil.
+
+Samir est étudiant en dernière année d'école d'ingénieurs. Il passe ses journées entre les cours, les travaux pratiques et les projets de fin d'études. Le soir, il aime s'installer à la bibliothèque avec son ordinateur portable et une tasse de thé à la menthe. Il lit des articles, essaie des idées, corrige ses erreurs et recommence. Il sait que l'on apprend surtout en pratiquant.
+
+Un réseau de neurones est un programme qui apprend à partir d'exemples. On lui montre des entrées et les réponses attendues, puis on mesure l'écart entre ce qu'il prédit et ce qu'il devrait prédire. Cet écart s'appelle la perte. À chaque étape, on modifie légèrement les paramètres du réseau pour que la perte diminue. Après des milliers de petites corrections, le modèle finit par généraliser.
+
+Avant les Transformers, les réseaux récurrents lisaient les textes mot après mot. Ils gardaient une mémoire de ce qu'ils avaient lu, mais cette mémoire s'effaçait peu à peu. Quand la phrase était longue, le début était presque oublié à la fin. De plus, il fallait attendre la fin d'un calcul pour commencer le suivant, ce qui rendait l'entraînement lent.
+
+L'attention a changé la manière de lire une séquence. Au lieu de résumer le passé dans un seul vecteur, le modèle regarde tous les mots à la fois et décide lesquels sont importants pour comprendre le mot courant. Chaque mot pose une question, chaque mot propose une réponse, et les réponses les plus pertinentes reçoivent le plus de poids. C'est comme chercher une information dans un livre en posant la bonne question à chaque page.
+
+Dans un modèle de type GPT, un mot ne peut regarder que les mots qui le précèdent. On cache le futur avec un masque, car le but est de deviner la suite. Si le modèle pouvait lire la réponse, il n'aurait rien à apprendre et il serait incapable d'écrire quoi que ce soit de nouveau. Le texte est donc produit un caractère après l'autre, chaque caractère choisi dépendant de tous ceux qui ont été écrits avant lui.
+
+Dans un modèle de type BERT, au contraire, le texte est lu dans les deux sens. On cache quelques mots au hasard et le modèle doit les retrouver grâce aux mots situés à gauche et à droite. Cette lecture complète donne de très bonnes représentations pour comprendre le sens d'une phrase, classer un avis ou répondre à une question, mais elle ne permet pas d'écrire un texte de gauche à droite.
+
+La température règle le courage du modèle au moment d'écrire. Avec une température basse, il choisit presque toujours la lettre la plus probable et ses phrases deviennent prudentes, parfois répétitives. Avec une température élevée, il ose des lettres improbables, et le texte devient plus varié mais aussi plus confus. Il faut trouver un équilibre entre la sécurité et la créativité.
+
+Le vendredi après-midi, Samir retrouve ses amis dans un petit café près de l'école. Ils parlent de leurs projets, de leurs stages et des examens qui approchent. Nadia prépare un système de recommandation, Youssef travaille sur la reconnaissance d'images et Salma rédige un rapport sur la prévision de la consommation d'énergie. Chacun écoute les autres, pose des questions et propose des idées.
+
+La consommation d'électricité d'une maison suit le rythme de la vie de ses habitants. Elle est faible la nuit, monte le matin quand tout le monde se prépare, redescend pendant la journée, puis atteint un pic le soir au moment du repas. Le week-end, les habitudes changent, et en hiver le chauffage fait grimper la courbe. Un bon modèle doit apprendre ces régularités sans les confondre avec le hasard.
+
+Le soleil se couche sur l'Atlantique et la lumière devient orange. Les pêcheurs rentrent au port, les enfants jouent sur la plage et les cafés se remplissent. Samir ferme son ordinateur, range ses notes et marche un moment au bord de l'eau. Demain, il testera une nouvelle idée. Si elle échoue, il comprendra pourquoi, et il essaiera encore.
+
+Apprendre à programmer demande de la patience. Au début, une simple virgule oubliée peut bloquer un programme pendant une heure. Puis, peu à peu, on reconnaît les erreurs, on lit les messages avec attention et on découvre que les machines sont plus logiques que mystérieuses. La curiosité reste le meilleur outil d'un ingénieur, et la rigueur sa meilleure habitude.
+
+Pour savoir si un modèle est bon, on ne le juge jamais sur les données qui ont servi à l'entraîner. On garde de côté une partie du texte, ou de la série, que le modèle n'a jamais vue. Si les résultats restent bons sur ces nouvelles données, alors le modèle a vraiment appris quelque chose. Sinon, il a seulement mémorisé ses exemples, comme un élève qui récite sa leçon sans la comprendre.
+
+Les mots ne sont que des symboles, mais ils portent des idées. Un modèle de langage ne connaît ni la mer, ni le thé, ni la fatigue d'une longue journée, et pourtant il apprend à manipuler ces mots avec une surprenante aisance, simplement parce qu'ils apparaissent toujours dans les mêmes contextes. Comprendre ce que cela signifie réellement est l'une des grandes questions de notre époque.
+
+Ce soir, la bibliothèque ferme à vingt heures. Samir sort le dernier, salue le gardien et prend le chemin de la maison. Dans sa tête, les formes des tenseurs défilent encore : le lot, la longueur, la dimension. Il sourit en pensant que, demain matin, la ville s'éveillera de nouveau et que le cycle recommencera.
